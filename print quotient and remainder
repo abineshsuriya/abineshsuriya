@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(0)
+{
+int i,j,quotient,remainder;
+printf("Enter value for i; ");
+scanf("%d",&i);
+printf("Enter value for j; ");
+scanf("%d",&j);
+quotient=i/j;
+remainder=i%j;
+printf("Quotient is=%d\n",quotient);
+printf("Remainder is=%d",remainder);
+return 0;
+}
